@@ -1,0 +1,195 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.kontener {
+  width: 1288px;
+  margin: auto;
+}
+
+header {
+  background: #127521;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 20px 0;
+}
+
+.h_spaceout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h_main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.h_laczenie {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+#h_ja {
+  height: 50px;
+  width: 50px;
+}
+
+#h_ja:hover {
+  opacity: 1;
+}
+
+#h_logo {
+  height: 40px;
+  width: 40px;
+}
+
+
+.h_nazwa {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.h_ID {
+  font-size: 16px;
+
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+main {
+  flex: 1;
+  padding: 40px;
+  background: #f3f72d;
+}
+
+.glowny {
+  gap: 20px;
+}
+
+.tytul {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.obramowka {
+  border: 2px solid #dd6a2b;
+  border-radius: 7px;
+  padding: 25px;
+}
+
+
+section {
+  margin-top: 20px;
+}
+
+
+p {
+  text-align: center;
+  font-weight: 600;
+}
+.opis {
+  text-align: center;
+  color: rgb(0, 25, 152);
+}
+
+.k_wielkosc{
+
+  height: 200px;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+#domy{
+  height: 200px;
+  width: 300px;
+}
+
+.carousel{
+  padding: 10px;
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+
+.prawy{
+  overflow: hidden;
+  margin-left: 60%;
+}
+
+footer {
+  background: #cd7a1c;
+  padding: 40px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+
+.f_main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.f_lewa {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.f_nazwa {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.f_prawy {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.f_tekst {
+  text-align: justify;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.spaceout {
+  width: 100%;
+  height: 1px;
+  max-height: 1px;
+  background: #1c6188;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+#karuzela5{
+  margin-left: 17.5%;
+}
+
+
+
+
