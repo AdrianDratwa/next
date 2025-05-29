@@ -10,7 +10,7 @@
 }
 
 header {
-  background: #127521;
+  background: #1c6188;
   color: #fff;
   position: sticky;
   top: 0;
@@ -74,7 +74,7 @@ body {
 main {
   flex: 1;
   padding: 40px;
-  background: #f3f72d;
+  background: #ebebe5;
 }
 
 .glowny {
@@ -88,7 +88,7 @@ main {
 }
 
 .obramowka {
-  border: 2px solid #dd6a2b;
+  border: 2px solid #9ecbe4;
   border-radius: 7px;
   padding: 25px;
 }
@@ -133,7 +133,7 @@ p {
 }
 
 footer {
-  background: #cd7a1c;
+  background: #bde4fa;
   padding: 40px 0;
   display: flex;
   align-items: flex-start;
@@ -189,6 +189,7 @@ footer {
 #karuzela5{
   margin-left: 17.5%;
 }
+
 
 
 
